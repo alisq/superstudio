@@ -1,0 +1,32 @@
+@use 'layout.scss';
+
+@font-face {
+    font-family: "AAHA";
+    src: url(fonts/AAHA-Regular.woff2) format(woff2);
+}
+html, body {
+    font-size:20px;
+}
+
+
+h1 {
+    font-family: 'AAHA';
+    font-size:90px;
+    white-space: nowrap;
+    text-align: center!important;
+    position:relative;
+    font-weight:normal;
+}
+
+h2, h3, h4, h5 {
+    font-family:'AAHA';
+    text-align:center;
+    font-weight:normal;
+}
+
+
+
+
+.interior {
+    padding:1em;
+}

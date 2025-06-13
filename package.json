@@ -1,0 +1,24 @@
+{
+  "name": "superstudio",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/alisq/superstudio#readme",
+  "bugs": {
+    "url": "https://github.com/alisq/superstudio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisq/superstudio.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass sass/main.scss css/main.css -w"
+  },
+  "dependencies": {
+    "sass": "^1.89.2"
+  }
+}

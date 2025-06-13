@@ -1,0 +1,56 @@
+#container {
+  /* text-align:center; */
+  display: flex;
+  width: 1500px;
+  margin: auto;
+}
+
+.column {
+  width: 500px;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#left h1 {
+  transform: translateX(-75%);
+  left: 500px;
+}
+
+#center h1 {
+  transform: translateX(-75%);
+}
+
+#right h1 {
+  transform: translateX(-75%);
+  left: -500px;
+}
+
+@font-face {
+  font-family: "AAHA";
+  src: url(fonts/AAHA-Regular.woff2) format(woff2);
+}
+html, body {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "AAHA";
+  font-size: 90px;
+  white-space: nowrap;
+  text-align: center !important;
+  position: relative;
+  font-weight: normal;
+}
+
+h2, h3, h4, h5 {
+  font-family: "AAHA";
+  text-align: center;
+  font-weight: normal;
+}
+
+.interior {
+  padding: 1em;
+}
+
+/*# sourceMappingURL=main.css.map */

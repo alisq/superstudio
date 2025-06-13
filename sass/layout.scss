@@ -1,0 +1,34 @@
+$colWidth:500px;
+
+#container {
+    /* text-align:center; */
+    display:flex;
+    width:calc($colWidth * 3);
+    margin:auto;
+}
+
+
+.column {
+    
+    width:$colWidth;
+    
+    height:100vh;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+#left h1 {
+    transform:translateX(-75%);
+    left:$colWidth;
+}
+
+#center h1 {
+    transform:translateX(-75%);
+    
+}
+
+
+#right h1 {
+    transform:translateX(-75%);
+    left:-$colWidth;
+}
