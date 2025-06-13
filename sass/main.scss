@@ -1,4 +1,5 @@
 @use 'layout.scss';
+$red: #c00000;
 
 @font-face {
     font-family: "AAHA";
@@ -6,16 +7,18 @@
 }
 html, body {
     font-size:20px;
+    font-family: "freight-text-pro", serif;
 }
 
 
 h1 {
     font-family: 'AAHA';
-    font-size:90px;
+    font-size:4rem;
     white-space: nowrap;
     text-align: center!important;
     position:relative;
     font-weight:normal;
+    margin:1rem;
 }
 
 h2, h3, h4, h5 {
@@ -24,6 +27,9 @@ h2, h3, h4, h5 {
     font-weight:normal;
 }
 
+h2, h4 {
+    color:$red;
+}
 
 
 
