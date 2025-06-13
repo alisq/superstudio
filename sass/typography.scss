@@ -1,0 +1,57 @@
+$red: #c00000;
+
+@font-face {
+    font-family: "AAHA";
+    src: url(fonts/AAHA-Regular.woff2) format(woff2);
+}
+html, body {
+    font-size:20px;
+    font-family: "freight-text-pro", serif;
+}
+
+a:link,
+a:visited {
+    color:$red;
+
+    &:hover {
+        text-decoration: none;
+        color:black;
+    }
+}
+
+h1 {
+    font-family: 'AAHA';
+    font-size:4rem;
+    white-space: nowrap;
+    text-align: center!important;
+    position:relative;
+    font-weight:normal;
+    margin:1rem;
+}
+
+h2, h3, h4, h5 {
+    font-family:'AAHA';
+    text-align:center;
+    font-weight:normal;
+}
+
+h1, h3, h5 {
+    color:$red;
+}
+
+
+ul li {
+    list-style-type:circle;
+}
+
+ol li::marker {
+    font-weight:bold;
+}
+
+li {
+    margin-bottom:0.5em;
+    &::marker {
+        color: $red;
+    }
+}
+ 

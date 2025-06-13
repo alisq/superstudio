@@ -1,3 +1,57 @@
+@font-face {
+  font-family: "AAHA";
+  src: url(fonts/AAHA-Regular.woff2) format(woff2);
+}
+html, body {
+  font-size: 20px;
+  font-family: "freight-text-pro", serif;
+}
+
+a:link,
+a:visited {
+  color: #c00000;
+}
+a:link:hover,
+a:visited:hover {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: "AAHA";
+  font-size: 4rem;
+  white-space: nowrap;
+  text-align: center !important;
+  position: relative;
+  font-weight: normal;
+  margin: 1rem;
+}
+
+h2, h3, h4, h5 {
+  font-family: "AAHA";
+  text-align: center;
+  font-weight: normal;
+}
+
+h1, h3, h5 {
+  color: #c00000;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+ol li::marker {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+li::marker {
+  color: #c00000;
+}
+
 #container {
   /* text-align:center; */
   display: flex;
@@ -26,37 +80,18 @@
   left: -500px;
 }
 
-@font-face {
-  font-family: "AAHA";
-  src: url(fonts/AAHA-Regular.woff2) format(woff2);
+#footer {
+  background: black;
+  padding: 2rem;
 }
+
 html, body {
-  font-size: 20px;
-  font-family: "freight-text-pro", serif;
-}
-
-h1 {
-  font-family: "AAHA";
-  font-size: 4rem;
-  white-space: nowrap;
-  text-align: center !important;
-  position: relative;
-  font-weight: normal;
-  margin: 1rem;
-}
-
-h2, h3, h4, h5 {
-  font-family: "AAHA";
-  text-align: center;
-  font-weight: normal;
-}
-
-h2, h4 {
-  color: #c00000;
+  margin: 0;
+  padding: 0;
 }
 
 .interior {
-  padding: 1em;
+  padding: 0 1em;
 }
 
 /*# sourceMappingURL=main.css.map */
