@@ -19,6 +19,11 @@
     overflow-y:scroll;
     overflow-x:hidden;
 
+    & .column_interior {
+        padding-bottom:2em;
+    }
+    
+
 }
 
 #left h1 {
@@ -38,7 +43,7 @@
 }
 
 #footer {
-    background:black;
+    background:$fColor;
     padding:2rem;
 
 }

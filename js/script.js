@@ -22,3 +22,24 @@ document.addEventListener("scroll", () => {
     }
   });
 });
+
+document.querySelectorAll('.tool_tip').forEach(tip => {
+    t = document.getElementById("tool_tip");
+    tip.addEventListener('mouseenter',(e)=>{
+        t.classList.add('active');
+
+        t.innerHTML = tip.dataset.tip;
+        t.style.top = e.clientY+'px';
+        t.style.left = e.clientX+'px';
+    })
+
+    tip.addEventListener('mouseleave',(e)=>{
+        console.log(e)
+        t.classList.remove('active')
+        setTimeout(function(){
+            t.innerHTML = "";
+        }, 200)
+        
+    })
+    
+})
