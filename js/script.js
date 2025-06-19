@@ -34,7 +34,7 @@ document.querySelectorAll('.tool_tip').forEach(tip => {
     })
 
     tip.addEventListener('mouseleave',(e)=>{
-        console.log(e)
+        
         t.classList.remove('active')
         setTimeout(function(){
             t.innerHTML = "";

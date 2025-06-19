@@ -52,7 +52,8 @@ li::marker {
   color: #fc0101;
 }
 
-link {
+a.tool_tip {
+  color: inherit;
   text-decoration: underline;
 }
 
@@ -92,6 +93,7 @@ link {
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
+  overscroll-behavior: contain;
 }
 .column .column_interior {
   padding-bottom: 2em;
